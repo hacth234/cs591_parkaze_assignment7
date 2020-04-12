@@ -1,0 +1,7 @@
+ATTACK: ' or TRUE#
+
+1. The Blind SQL Injection. I injected (' or TRUE#) without the parenthesis, which is queried as (search='' or TRUE#). This boolean condition will return TRUE, and since # is the comment delimiter for sql, everything after TRUE will be commented out allowing us to successfully view all of the things in the database.
+
+2. My application is not vulnerable to this type of attack because Firebase is a noSQL based cloud storage where everything is stored as JSON objects.
+
+3. Two ways to protect against this vulnerability is to not use SQL based databases, or to properly sanitize inputs into the form.
