@@ -18,3 +18,6 @@ Thus our app parkaze is not vulnerable to the attack.
 We do not handle request forgery attacks via passwords in this application. That is already built upon by the parkaze group
 prior to us entering the group. It is a mobile app and we handle front end and backend for new/upgraded functionality of
 them app.
+
+My public ip:
+2601:182:cd01:9a83:d1a2:5fb5:876f:ce8c
